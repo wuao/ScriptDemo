@@ -8,8 +8,7 @@
 
 
  笔者本身是做安卓的 。那么在安卓中都是习惯了命令打包。或者是adb 来操作。那么在rn 中有时候不是很习惯 就自己自定义了一套脚本。 脚本的名字和功能都是可以由大家随便改的 所以你可以改成你喜欢的名字来方便你记忆或者 少打几个字母。 <br/>
-![screen_QPM_home_pic](https://raw.githubusercontent.com/ZhuoKeTeam/QPM/master/pic/screen_QPM_home_pic_s.png)
-
+ 
 ![](https://www.moretime.vip/upload/2019/04/ucvgo604jcif5o523fr6d9bakb.jpg) <br/>
 
  一般在我们 init 项目之后我们会有android ios app 等目录。在其中的根目录和android 他们同级别的目录有一个package.json 文件是一个编译配置的文件。其中有定义了<br/>
