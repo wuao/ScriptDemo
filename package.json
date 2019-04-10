@@ -1,0 +1,30 @@
+{
+  "name": "Wuao",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-ios":"react-native bundle --entry-file index.js --platform ios --dev false --bundle-output ./ios/release_ios/main.jsbundle --assets-dest ./ios/release_ios/",
+    "bundle-android":"cd android&&./gradlew assemblerelease",
+    "ios-list":"xcrun simctl list devices",
+    "android-list":"cd android&&adb devices",
+    "ios":"react-native run-ios --simulator 'iPhone X'",
+    "android":"cd android&&./gradlew assembledebug&&cd app/build/outputs/apk/debug&&adb install app-debug.apk",
+    "i-android":"cd android/app/build/outputs/apk/debug&&adb install app-debug.apk",
+    "unandroid":"adb uninstall  com.sunshine_employee",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.6.1",
+    "react-native": "0.57.7"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.49.2",
+    "react-test-renderer": "16.6.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
