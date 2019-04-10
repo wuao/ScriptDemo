@@ -1,11 +1,10 @@
 # ScriptDemo
 一份 React Native 脚本<br/>
 
-(https://img.shields.io/badge/%E4%BD%9C%E8%80%85-gdky005-orange.svg)](https://www.moretime.vip/)   [![wuao]
 
 不知不觉用RN 开发了快有半年多时间了。<br/>
 
-![screen](https://www.moretime.vip/upload/2019/04/2oi54vk44ah4tq69kp9m39ptkg.jpg)<br/>
+![](https://www.moretime.vip/upload/2019/04/2oi54vk44ah4tq69kp9m39ptkg.jpg)
 
 
  笔者本身是做安卓的 。那么在安卓中都是习惯了命令打包。或者是adb 来操作。那么在rn 中有时候不是很习惯 就自己自定义了一套脚本。 脚本的名字和功能都是可以由大家随便改的 所以你可以改成你喜欢的名字来方便你记忆或者 少打几个字母。 <br/>
