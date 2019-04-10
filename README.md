@@ -1,6 +1,7 @@
 # ScriptDemo
 一份 React Native 脚本<br/>
 
+(https://img.shields.io/badge/%E4%BD%9C%E8%80%85-gdky005-orange.svg)](https://www.moretime.vip/)   [![wuao]
 
 不知不觉用RN 开发了快有半年多时间了。<br/>
 
